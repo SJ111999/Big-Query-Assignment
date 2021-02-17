@@ -45,3 +45,8 @@ SELECT count(capital_gain), sex as Gender  FROM `bigquery-public-data.ml_dataset
 where age between 30 and 50 and education_num > 5
 group by sex
 LIMIT 100
+
+Code No. 10
+SELECT * FROM `bigquery-public-data.ml_datasets.census_adult_income` 
+where functional_weight > 20000 or capital_gain > 1000
+LIMIT 100
