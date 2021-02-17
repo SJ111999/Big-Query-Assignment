@@ -9,3 +9,7 @@ SELECT AVG(hours_per_week)  FROM `bigquery-public-data.ml_datasets.census_adult_
 where age > 40
 LIMIT 1000
 
+Code NO. 3
+SELECT count( hours_per_week) FROM `bigquery-public-data.ml_datasets.census_adult_income` 
+where education_num > 5
+LIMIT 10
