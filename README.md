@@ -20,6 +20,7 @@ where education_num > 5 and age > 30
 order by age
 LIMIT 10
 
+Code No. 5
 SELECT max(capital_gain)   FROM `bigquery-public-data.ml_datasets.census_adult_income` 
 where age < 30 
 LIMIT 5
