@@ -25,3 +25,7 @@ SELECT max(capital_gain)   FROM `bigquery-public-data.ml_datasets.census_adult_i
 where age < 30 
 LIMIT 5
 
+Code No. 6
+SELECT min(capital_gain)   FROM `bigquery-public-data.ml_datasets.census_adult_income` 
+where age < 30 
+LIMIT 5
