@@ -29,3 +29,8 @@ Code No. 6
 SELECT min(capital_gain)   FROM `bigquery-public-data.ml_datasets.census_adult_income` 
 where age < 30 
 LIMIT 5
+
+Code No. 7
+SELECT count(capital_gain), sex as Gender  FROM `bigquery-public-data.ml_datasets.census_adult_income` 
+group by sex
+LIMIT 100
