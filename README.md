@@ -13,3 +13,10 @@ Code NO. 3
 SELECT count( hours_per_week) FROM `bigquery-public-data.ml_datasets.census_adult_income` 
 where education_num > 5
 LIMIT 10
+
+Code No. 4
+SELECT age as Age, functional_weight as FW,capital_gain as CG, hours_per_week as  HRW, capital_loss as CL   FROM `bigquery-public-data.ml_datasets.census_adult_income` 
+where education_num > 5 and age > 30
+order by age
+LIMIT 10
+
